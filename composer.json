@@ -1,0 +1,23 @@
+{
+    "name": "coutinho/buscacep",
+    "description": "Busca de cep",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas coutinho",
+            "email": "lucas.coutinho2001@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "coutinho\\buscacep\\": "src/"
+        }
+    }
+}
